@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RC4 Encryption and Decryption</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <nav>
+      <h1>RC4 Encryption Generator</h1>
+    </nav>
+    <div class="container">
+      <div class="input-form">
+        <div class="plaintext">
+          <label for="text"><i data-feather="type"></i> </label>
+          <input type="text" id="text" />
+        </div>
+        <div class="kunci">
+          <label for="key"><i data-feather="key"></i></label>
+          <input type="text" id="key" />
+        </div>
+        <div class="enkripsi">
+          <button onclick="encrypt()">Encrypt</button>
+        </div>
+        <div class="proses">
+          <div class="proses-bar" data-bar="100">Processing</div>
+        </div>
+        <div class="hasil">
+          <pre id="result"></pre>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy Yuldan Nur Addinsyah | Informatika Universitas Siliwangi 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    
+  </body>
+</html>

@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+body{
+  overflow-y: hidden;
+
+}
+nav {
+  background-color: #153448;
+  color: white;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8rem;
+  box-shadow: 1px 1px 3px 1px black;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 20rem;
+}
+
+.container .input-form input {
+  width: 20rem;
+  height: 5rem;
+  border-radius: 1.2rem;
+  padding: 0 6rem;
+  border: none;
+  background-color: #e3e8f8;
+  font-size: 1.4rem;
+  font-family: "Poppins";
+  z-index: 1;
+}
+
+.container input:focus {
+  outline: none;
+}
+
+.container .input-form .plaintext {
+  margin-bottom: 3rem;
+}
+.container .input-form label {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  width: 5rem;
+  justify-content: center;
+  border-top-left-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
+  background-color: #153448;
+  color: white;
+}
+
+label i {
+  color: white;
+}
+.enkripsi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-form button {
+  margin-top: 5rem;
+  width: 8rem;
+  height: 2rem;
+  background-color: #153448;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px 1px black;
+}
+
+.input-form button:hover {
+  background-color: #335c77;
+}
+
+.container .hasil {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -50px;
+}
+
+footer {
+  background-color: #153448;
+  color: white;
+  margin-top: 5.1rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10vh;
+  position: static;
+}
+
+/* Proses */
+.proses {
+  margin-top: 1rem;
+  height: 2rem;
+  color: white;
+  border-radius: 20px;
+}
+
+.proses-bar {
+  background: linear-gradient(to right, #153448, #4a68ca);
+  width: 0%;
+  opacity: 1;
+  height: 100%;
+  border-radius: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  transition: 3s ease;
+}
